@@ -1,0 +1,19 @@
+{
+    "name": "haoke/pinyin",
+    "description": "这是对github源地址 gitsher/pinyin 的composer封装",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "haoke",
+            "email": "1613048203@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Pinyin\\": "src/"
+        }
+    }
+}
