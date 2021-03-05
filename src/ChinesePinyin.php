@@ -1,10 +1,13 @@
 <?php
+
+namespace Pinyin;
+
 /**
- * @name Pinyin_ChinesePinyin
+ * @name ChinesePinyin
  * @desc 汉字拼音对照表（汉字20901个）更新词表url[]
  * @author 张顺(zhangshun@baidu.com)
  */
-class Pinyin_ChinesePinyin {
+class ChinesePinyin {
     /**
      * 汉字对应拼音二维数组
      * @var array

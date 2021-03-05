@@ -1,12 +1,13 @@
 <?php
+
+namespace Pinyin;
+
 /**
- * @name Pinyin_Pinyin
+ * @name Pinyin
  * @desc 汉字转拼音 (仅支持utf8汉字转换拼音，支持包含字母和数组。可以更换带注音的拼音库)
  * @author 张顺(zhangshun@baidu.com)
  */
-
-include 'ChinesePinyin.php';
-class Pinyin_Pinyin {
+class Pinyin {
     /**
      * @desc 字符串分割成顺序key单字符一维数组
      * @param string $string
