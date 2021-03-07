@@ -39,9 +39,9 @@ class Pinyin {
         }
 
         foreach ($stringList as $string) {
-            if ((strlen($string) === 3) && isset(Pinyin_ChinesePinyin::$chinesePinyin[$string])) {
+            if ((strlen($string) === 3) && isset(ChinesePinyin::$chinesePinyin[$string])) {
             // 大部分汉字strlen长度为3，在拼音库里。所有读音都取出。
-                $result[] = Pinyin_ChinesePinyin::$chinesePinyin[$string];
+                $result[] = ChinesePinyin::$chinesePinyin[$string];
             } else {
                 $result[] = array($string);
             }
